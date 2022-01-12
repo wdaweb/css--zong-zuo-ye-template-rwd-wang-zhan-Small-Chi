@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/small.css">
+  <link rel="stylesheet" href="./style/Animation.css">
+  <link rel="stylesheet" href="./style/card.css">
+  <link rel="stylesheet" href="./FontAwesome/css/all.min.css">
+  <link rel="stylesheet" href="./style/media768.css">
+  <link rel="stylesheet" href="./style/media1200.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <a href="#" class="backIcon" data-wow-duration=".5s" data-wow-offset="400">
+    <i class="fas fa-chevron-up fa-xs"></i>
+  </a>
+  <nav class="navScroll">
+    <a href="#"><img src="http://miotheme.com/html/Delish/assets/images/logo/logo.png" width="50px"></a>
+    <ul class="navIcon">
+      <div class="media1200">
+        <li class="home"><a href="">Home<div class="dot1"></div></a>
+        </li>
+        <li class="page">
+          <a href="">Page<i class="fas fa-angle-down fa-xs">
+              <div class="dot"></div>
+            </i>
+          </a>
+          <div class="Pages">
+            <p>About Us</p>
+            <p>FAQ</p>
+            <p>404 Page</p>
+            <p>Contact Page</p>
+            <p>Comming Soon</p>
+            <p>Empty Cart</p>
+          </div>
+        </li>
+        <li class="shop">
+          <a href="">Shop<i class="fas fa-angle-down fa-xs">
+              <div class="dot3"></div>
+            </i>
+          </a>
+          <div class="Shop">
+            <div class="Shop-1">
+              <p>Shop Layout</p>
+              <p style="color: rgba(7, 102, 180, 0.5); margin-top: -20px;">____</p>
+              <p>Shop Fullwidth</p>
+              <p>Shop Sidebar</p>
+              <p>Shop 03 Columna</p>
+              <p>Shop List Style</p>
+            </div>
+            <div class="Shop-2">
+              <p>Product Layout</p>
+              <p style="color: rgba(7, 102, 180, 0.5); margin-top: -20px;">____</p>
+              <p>Product Details</p>
+              <p>Grouped</p>
+              <p>Sticky info</p>
+              <p>Vdeio</p>
+              <p>Affilate</p>
+            </div>
+            <div class="Shop-3">
+              <p>Shop Page</p>
+              <p style="color: rgba(7, 102, 180, 0.5); margin-top: -20px;">____</p>
+              <p>My Account</p>
+              <p>Check Out</p>
+              <p>Shopping Cart</p>
+              <p>SWishlist</p>
+              <p>Order Tracking</p>
+              <p>login/register</p>
+            </div>
+            <div class="Shop-4">
+              <img src="http://miotheme.com/html/Delish/assets/images/menu/banner-header-2.jpg">
+              <h2>New<br>
+                Collections</h2>
+            </div>
+          </div>
+        </li>
+        <li class="blog">
+          <a href="">Blog<i class="fas fa-angle-down fa-xs">
+              <div class="dot4"></div>
+            </i></a>
+          <div class="Blog">
+            <p>Blog Page</p>
+            <p>Blog No sidebar</p>
+            <p>Blog Right Sidebar</p>
+            <p>Blog Details</p>
+          </div>
+        </li>
+        <li class="contact">
+          <a href="">Contact<div class="dot5"></div></a>
+        </li>
+        <button class="Res-btn">Reservation</button>
+        <a href=""><i class="fas fa-search"></i></a>
+      </div>
+      </div>
+      <li><a href="http://miotheme.com/html/Delish/login-register.html"><i class="far fa-user"></i></a></li>
+      <li><a href="http://miotheme.com/html/Delish/wishlist.html"><i class="far fa-heart"></i></a></li>
+      <li><label for="shopcart" class="cart"><i class="fas fa-cart-arrow-down" style="cursor: pointer;"></i></label>
+      </li>
+      <li><label for="checkmenu" class="humburger"><i class="fas fa-bars" style="cursor: pointer;"></i></label></li>
+    </ul>
+    <!-- <div class="navdiv">
+      <div class="Pages">
+        <p><a href="">About Us</a></p>
+        <p><a href="">FAQ</a></p>
+        <p><a href="">404 Page</a></p>
+        <p><a href="">Contact Page</a></p>
+        <p><a href="">Comming Soon</a></p>
+        <p><a href="">Empty Cart</a></p>
+      </div>
+    </div> -->
+  </nav>
+  <input id="shopcart" type="checkbox">
+  <div class="ShopCart">
+    <label for="shopcart"><span><i class="fas fa-times" style="cursor: pointer;"></i></span></label>
+    <h3>Shopping Cart</h3>
+    <table class="item">
+      <tr>
+        <td>
+          <div class="product">
+            <a href="#"><img src="http://miotheme.com/html/Delish/assets/images/cart/cart-1.png"></a>
+          </div>
+        </td>
+        <td>
+          <a href="#">Awesome Mobile</a>
+          <p> 1 × $49.00 </p>
+        </td>
+        <td>
+          <a><i class="fas fa-times fa-xs"></i></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="product">
+            <a href="#"><img src="http://miotheme.com/html/Delish/assets/images/cart/cart-2.png"></a>
+          </div>
+        </td>
+        <td>
+          <a href="#">Nice Headphones</a>
+          <p> 1 × $49.00 </p>
+        </td>
+        <td>
+          <a><i class="fas fa-times fa-xs"></i></a>
+        </td>
+      </tr>
+    </table>
+    <h4>Subtotal: <strong>$170.00</strong></h4>
+    <button class="ShopCart-btn">View Cart</button>
+    <button class="ShopCart-btn">Checkout</button>
+  </div>
+
+
+  <input id="checkmenu" type="checkbox">
+  <div class="sidebar">
+    <label for="checkmenu"><span><i class="fas fa-times"></span></i></label>
+    <div class="input">
+      <input type="search" name="keyword" id="search" placeholder="Search entire store...">
+      <button class="submit_Btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="hr"></div>
+    <ul>
+      <li><a href="#">Home</a><a href="#"></a></li>
+      <li><a href="#">Pages<i class="fas fa-plus" style="padding-left: 190px;"></i></a></li>
+      <li><a href="#">Shop<i class="fas fa-plus" style="padding-left: 198px;"></i></a></li>
+      <li><a href="#">Blog<i class="fas fa-plus" style="padding-left: 203px;"></i></a></li>
+      <li><a href="#">Contact</a><a href="#"></a></li>
+    </ul>
+    </ul>
+    <div class="hrOne"></div>
+    <div class="sidebarAbout">
+      <ul>
+        <li>
+          <div><i class="far fa-clock fa-lg"></i></div>Monday-Friday: 9:00 - 19:00
+        </li>
+        <li>
+          <div><i class="far fa-envelope fa-lg"></i></div>Info@example.com
+        </li>
+        <li>
+          <div><i class="fas fa-mobile-alt fa-lg"></i></div>(+55)254.254.254
+        </li>
+        <li>
+          <div><i class="fas fa-home fa-lg" style="position: relative; top:5px;"></i></div>
+          <p>
+            Helios Tower 75 Tam Trinh<br>
+            Hoang - Ha Noi - Viet Nam</p>
+        </li>
+        <li>
+          <a href="#">
+            <div class="iconCircle1"><i class="fab fa-facebook-f"></i></div>
+          </a>
+          <a href="#">
+            <div class="iconCircle2"><i class="fab fa-twitter"></i></div>
+          </a>
+          <a href="#">
+            <div class="iconCircle3"><i class="fab fa-google-plus-g"></i></div>
+          </a>
+          <a href="#">
+            <div class="iconCircle4"><i class="fab fa-behance"></i></div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col1">
+      <div id="chi1" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/slider/slider-02.jpg" />
+
+          </div>
+
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/slider/slider-01.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/slider/slider-03.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="Text1">
+        <h4 class="animate__animated animate__fadeIn" style="text-transform: uppercase;">Favorite cuisine</h4>
+        <h1 class="animate__animated animate__fadeInUp">
+          Restaurant<br>
+          Sweet Pie
+        </h1>
+      </div>
+
+      <div class="Text2">
+        <h4 class="animate__animated animate__fadeIn" style="text-transform: uppercase;">Best cuisine</h4>
+        <h1 class="animate__animated animate__fadeInUp">
+          Evening<br>
+          Restaurant
+        </h1>
+      </div>
+
+      <div class="Text3">
+        <h4 class="animate__animated animate__fadeIn" style="text-transform: uppercase;">Fresh kitchen</h4>
+        <h1 class="animate__animated animate__fadeInUp">
+          Sea wave<br>
+          Restaurant
+        </h1>
+      </div>
+
+      <div class="col1btn">
+        <table class="Adress">
+          <tr>
+            <td style="border-right: white 1px solid;"><i class="fas fa-phone"></i><br>
+              <i class="fas fa-map-marker-alt"></i>
+            </td>
+            <td>
+              Phone<br>
+              Adress
+            </td>
+          </tr>
+        </table>
+
+        <div class="Adress2">
+          <table class="Adress2-2">
+            <tr>
+              <td style="border-right: white 1px solid;"><i class="fas fa-phone"></i><br>
+              </td>
+              <td>
+                Phone<br>
+                <span>123 456 7891</span>
+              </td>
+            </tr>
+          </table>
+          <table class="Adress2-2">
+            <tr>
+              <td style="border-right: white 1px solid;"><i class="fas fa-map-marker-alt"></i><br>
+              </td>
+              <td>
+                Adress<br>
+                <span>Ukraine/Nikolaev</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="pn-btn">
+          <div class="previous"><i class="fas fa-chevron-left"></i></div>
+          <div class="next"><i class="fas fa-chevron-right"></i></div>
+          <!-- <div class="previous2"><i class="fas fa-chevron-left"></i></div>
+        <div class="next2"><i class="fas fa-chevron-right"></i></div>
+        <div class="previous3"><i class="fas fa-chevron-left"></i></div>
+      <div class="next3"><i class="fas fa-chevron-right"></i></div> -->
+        </div>
+      </div>
+
+    </div>
+    <div class="col2">
+      <div class="col2-1">
+        <div class="col2-2">
+          <h4>WHY CHOOSE US?</h4>
+          <h1>
+            Only <span style="color:var(--color-yellow);">the best</span> ones
+            from all over the
+            world
+          </h1>
+        </div>
+        <div class="services">
+          <div class="services-item">
+            <img src="http://miotheme.com/html/Delish/assets/images/service/icon1.png">
+            <h2>Founder & CEO</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor sociis natoque
+              adip iscing elit. Proin rhoncus urn a dictum neque molestie ultricies.</p>
+          </div>
+          <div class="services-item">
+            <img src="http://miotheme.com/html/Delish/assets/images/service/icon2.png">
+            <h2>Chinese Kitchen Lead</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor sociis natoque
+              adip iscing elit. Proin rhoncus urn a dictum neque molestie ultricies.</p>
+          </div>
+          <div class="services-item">
+            <img src="http://miotheme.com/html/Delish/assets/images/service/icon3.png">
+            <h2>French Kitchen Lead</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor sociis natoque
+              adip iscing elit. Proin rhoncus urn a dictum neque molestie ultricies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col3">
+      <h1>Popular <span style="color:var(--color-yellow);">Dishes</span></h1>
+      <div class="Menu">
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-01.png">
+            COMBO
+          </a>
+        </div>
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-02.png">
+            chicken
+          </a>
+        </div>
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-03.png">
+            Sauces
+          </a>
+        </div>
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-04.png">
+            Kids menus
+          </a>
+        </div>
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-05.png">
+            Burger
+          </a>
+        </div>
+        <div class="phone-menu">
+          <a href="http://miotheme.com/html/Delish/#product-1">
+            <img src="http://miotheme.com/html/Delish/assets/images/product/category-06.png">
+            Pizza
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col4">
+      <div class="Allcard">
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg1">
+                <span>NEW</span>
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>BBQ Chicken Breast</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$59.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg2">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Bacon Burger</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$20.99</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg3">
+                <span>-25%</span>
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Blueberry Shake</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$99.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg4">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Chocolate Muffin</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$39.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg5">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Apricot Chicken</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$90.99</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg6">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Double Beef Burger</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$60.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg7">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+            </div>
+            <h3>Round Neck Cardigan</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$60.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <div class="cardlink">
+            <a href="http://miotheme.com/html/Delish/product-details.html">
+              <div class="cardimg8">
+                <a class="favoriteIcon" href="#">
+                  <i class="fas fa-heart fa-lg" id="icon"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="cardbody">
+            <div class="star">
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs yellowstar"></i>
+              <i class="fas fa-star fa-xs blackstar"></i>
+            </div>
+            <h3>Plain Hooded Sweatshirt</h3>
+            <p> A mighty meaty double helping of all the reasons you love our burger.</p>
+            <h3 style="color:var(--color-yellow); margin-top: 15px; margin-bottom: 15px; cursor: auto;">$35.00</h3>
+            <a href="#" class="narrowIcon"><i class="fas fa-compress-alt fa-xs"></i></a>
+            <a href="#" class="magnifierIcon"><i class="fas fa-search-plus fa-xs"></i></a>
+            <a href="#" class="shopIcon"><i class="fas fa-cart-arrow-down fa-xs"></i></a>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col5">
+      <div class="col5-1">
+        <img src="http://miotheme.com/html/Delish/assets/images/others/image9-h4.png">
+      </div>
+      <div class="col5-2">
+        <h5>oraco products</h5>
+        <h1>We <span style="color:var(--color-yellow)">specialize</span> in<br>
+          modern kitchen.</h1>
+        <p>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit.
+          Reiciendis doloremque deleniti
+          autem! Id reiciendis adipisci
+          deserunt dolore vel dolorem totam
+          magnam blanditiis.</p>
+        <button class="col5-btn">Read More</button>
+      </div>
+    </div>
+
+    <div class="col6">
+      <div id="chi3" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="message">
+              <div class="message-top">
+                <img src="http://miotheme.com/html/Delish/assets/images/testimonial/client-3.png">
+                <h4>ROSE</h4>
+                <div class="messageIcon"><i class="fa fa-quote-left"></i></div>
+              </div>
+              <div class="message-bottom">
+                <p>"I am completely blown away. I would also like to say thank you to all your staff. adip iscing elit.
+                  Proin
+                  rhoncus urn a It's really wonderful."</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="message">
+              <div class="message-top">
+                <img src="http://miotheme.com/html/Delish/assets/images/testimonial/client-1.png">
+                <h4>LELA</h4>
+                <div class="messageIcon"><i class="fa fa-quote-left"></i></div>
+              </div>
+              <div class="message-bottom">
+                <p>"I am completely blown away. I would also like to say thank you to all your staff. adip iscing elit.
+                  Proin
+                  rhoncus urn a It's really wonderful."</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="message">
+              <div class="message-top">
+                <img src="http://miotheme.com/html/Delish/assets/images/testimonial/client-2.png">
+                <h4>JOHN</h4>
+                <div class="messageIcon"><i class="fa fa-quote-left"></i></div>
+              </div>
+              <div class="message-bottom">
+                <p>"I am completely blown away. I would also like to say thank you to all your staff. adip iscing elit.
+                  Proin
+                  rhoncus urn a It's really wonderful."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col7">
+      <div class="Book">
+        <h5>Reserve a table</h5>
+        <h1 style="text-transform: uppercase;">Book Now</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas adipisci, numquam voluptates quasi quis qui
+          ipsum at beatae incidunt impedit sed totam ipsa illo vitae hic. Quia exercitationem itaque illum impedit
+          laboriosam mollitia. Et consectetur nihil fugiat rem, fuga quisquam dolor facere accusamus assumenda.</p>
+      </div>
+      <div class="timeMenu">
+        <h2>Open Hours</h2>
+        <p>
+          <span>Mon :</span> 7.00am – 6.00pm<br>
+          <span>Tue :</span> 7.00am – 6.00pm<br>
+          <span>Wed :</span> 7.00am – 6.00pm<br>
+          <span>Thu :</span> 7.00am – 6.00pm<br>
+          <span>Fri :</span> 7.00am – 6.00pm<br>
+          <span>Sat :</span> 5.00am – 9.00pm<br>
+          <span>Sun :</span> 8.00am – 9.00pm<br>
+        </p>
+        <button class="timeMenu-btn">Book Now</button>
+      </div>
+      <div class="video">
+        <a href="https://player.vimeo.com/video/181061053?autoplay=1&;byline=0&collections=0" target="_self">
+          <div class="videoIcon">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-play fa-lg"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col8">
+      <div class="col8All">
+        <div class="HOTDOGS">
+          <h5>TASTY & FRESH</h5>
+          <h2>HOT DOGS</h2>
+          <div class="text-menu">
+            <h3>WASTED HOTDOG</h3>
+            <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
+            <span>
+              $ 9.00
+            </span>
+          </div>
+          <div class="text-menu">
+            <h3>CHICKEN ADOBO</h3>
+            <p>Olive oil, onion, tomatoes juice, fresh basil, breadcrumbs</p>
+            <span>
+              $ 7.50
+            </span>
+          </div>
+          <div class="text-menu" style="border-bottom:0;">
+            <h3>BEEF BURGERS</h3>
+            <p>Onion, good-quality beef mince, egg, vegetable oiI</p>
+            <span>
+              $ 3.70
+            </span>
+          </div>
+        </div>
+
+        <div class="SANDWICHES">
+          <h5>TASTY & FRESH</h5>
+          <h2>SANDWICHES</h2>
+          <div class="text-menu">
+            <h3>JUNIOR FOOD</h3>
+            <p>Potatoes, vegetable oil, yellow onion, garlic</p>
+            <span>
+              $ 6.50
+            </span>
+          </div>
+          <div class="text-menu">
+            <h3>CLASSIC HIT</h3>
+            <p>Chicken fillets, lemon, pepper, garlic powder</p>
+            <span>
+              $ 11.20
+            </span>
+          </div>
+          <div class="text-menu" style="border-bottom:0;">
+            <h3>CUCUMBER SALAD</h3>
+            <p>Cucumbers, cider or white vinegar, water</p>
+            <span>
+              $ 10.40
+            </span>
+          </div>
+        </div>
+
+        <div class="WAFFLES">
+          <h5>TASTY & FRESH</h5>
+          <h2>WAFFLES</h2>
+          <div class="text-menu">
+            <h3>ALMOND BUTTER</h3>
+            <p>Fruit and a topping between two waffle</p>
+            <span>
+              $ 8.10
+            </span>
+          </div>
+          <div class="text-menu">
+            <h3>SLICED APPLES</h3>
+            <p>Waffle on a stick with chocolate</p>
+            <span>
+              $ 8.60
+            </span>
+          </div>
+          <div class="text-menu" style="border-bottom:0;">
+            <h3>GRAPE JAM</h3>
+            <p>Our famous waffle drizzled in syrup</p>
+            <span>
+              $ 7.20
+            </span>
+          </div>
+        </div>
+
+        <div class="SIDESDRINKS">
+          <h5>TASTY & FRESH</h5>
+          <h2>SIDES & DRINKS</h2>
+          <div class="text-menu">
+            <h3>MEXI COKE</h3>
+            <p>Best Coke in can or bottle, diet or not</p>
+            <span>
+              $ 5.50
+            </span>
+          </div>
+          <div class="text-menu">
+            <h3>ORANGE JUICE</h3>
+            <p>Fresh orange juice with pulp or without</p>
+            <span>
+              $ 15.90
+            </span>
+          </div>
+          <div class="text-menu" style="border-bottom:0;">
+            <h3>BOTTLED WATER</h3>
+            <p>Standard mineral H20, lemon, applep</p>
+            <span>
+              $ 9.20
+            </span>
+          </div>
+        </div>
+        <button class="textMenu-btn">Read More</button>
+      </div>
+    </div>
+
+    <div class="col9">
+      <div class="AllcardDate">
+        <div class="cardDate">
+          <div class="cardDateTop">
+            <div class="cardDateImg">
+              <a href="http://miotheme.com/html/Delish/blog-details.html">
+                <img src="http://miotheme.com/html/Delish/assets/images/blog/e-blog-1.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="cardDatebody">
+            <p class="date">By<a href="#"> John Doe</a><a href="#"> - 11 Dec 2021</a></p>
+            <a href="http://miotheme.com/html/Delish/blog-details.html">
+              <h3>Traditional Soft Pretzels with Sweet Beer Cheese</h3>
+            </a>
+            <p>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac…
+            </p>
+            <button class="cardDate-btn">Read More</button>
+          </div>
+        </div>
+        <div class="cardDate">
+          <div class="cardDateTop">
+            <div class="cardDateImg">
+              <a href="http://miotheme.com/html/Delish/blog-details.html">
+                <img src="http://miotheme.com/html/Delish/assets/images/blog/e-blog-2.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="cardDatebody">
+            <p class="date">By<a href="#"> John Doe</a><a href="#"> - 17 Dec 2021</a></p>
+            <a href="http://miotheme.com/html/Delish/blog-details.html">
+              <h3>10 Reasons To Do A Digital Detox Challenge</h3>
+            </a>
+            <p>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac…
+            </p>
+            <button class="cardDate-btn">Read More</button>
+          </div>
+        </div>
+        <div class="cardDate">
+          <div class="cardDateTop">
+            <div class="cardDateImg">
+              <a href="http://miotheme.com/html/Delish/blog-details.html">
+                <img src="http://miotheme.com/html/Delish/assets/images/blog/e-blog-3.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="cardDatebody">
+            <p class="date">By<a href="#"> John Doe</a><a href="#"> - 10 Dec 2021</a></p>
+            <a href="http://miotheme.com/html/Delish/blog-details.html">
+              <h3>Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco</h3>
+            </a>
+            <p>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac…
+            </p>
+            <button class="cardDate-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col10">
+      <div id="chi2" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-1.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-2.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-3.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-4.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-5.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-6.png">
+          </div>
+          <div class="swiper-slide">
+            <img src="http://miotheme.com/html/Delish/assets/images/brand-logo/brand-logo-3.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col11">
+      <div class="Allcol11">
+        <div class="Contacts">
+          <h3 style="text-transform: uppercase;">Contacts</h3>
+          <ul class="bottomAbout">
+            <li><i class="fas fa-map-marker-alt"></i><a href="#">5 Rue Dalou, 75015 Paris</a></li>
+            <li><i class="fas fa-phone"></i><a href="#">+33 156 78 89 56</a></li>
+            <li><i class="fab fa-google"></i><a href="#">Demo@mail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="Logocenter">
+          <a href="#">
+            <img src="http://miotheme.com/html/Delish/assets/images/logo/logo.png">
+          </a>
+          <p style="text-transform: uppercase;">Whisper to us about your feelings, and we will prepare what you need
+            now.
+          </p>
+          <ul class="goldIcon">
+            <li>
+              <div class="cube"><i class="fab fa-facebook-f fa-xs"></i></div>
+            </li>
+            <li>
+              <div class="cube"><i class="fab fa-apple fa-xs"></i></div>
+            </li>
+            <li>
+              <div class="cube"><i class="fab fa-behance fa-xs"></i></div>
+            </li>
+            <li>
+              <div class="cube"><i class="fab fa-youtube fa-xs"></i></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="WorkingHour">
+          <h3 style="text-transform: uppercase;">Working Hours</h3>
+          <ul class="WorkTime">
+            <li><a href="#">Mon – Fri: 7.00am – 6.00pm</a></li>
+            <li><a href="#">Sat: 7.00am – 6.00pm</a></li>
+            <li><a href="#">Sun: 8.00am – 6.00pm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Delish©2021. All rights reserved.</p>
+    </footer>
+
+
+
+  </div>
+
+
+
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+  <script src="./js/gsap.js"></script>
+  <script src="./js/ScrollTrigger.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger)
+
+    const tween1 = gsap.to('.navScroll', {
+      scrollTrigger: {
+        trigger: '.Text1',
+        start: 'bottom 20%',
+        end: () => `+=${$('.Text1').height()}`,
+        // toggleActions: 'play none none reverse',
+        toggleClass: {
+          targets: '.navScroll',
+        },
+        onEnter() {
+          console.log(1)
+          $('.navScroll').addClass('bgColor')
+        },
+        onLeaveBack() {
+          $('.navScroll').removeClass('bgColor')
+        },
+        // markers: true,
+      },
+      // backgroundColor: 'var(--color-blue)',
+      duration: 1,
+      ease: 'none'
+    })
+
+    const chi1 = new Swiper("#chi1", {
+      spaceBetween: 30,
+      loop: true,
+      speed: 1000,
+      effect: "fade",
+      navigation: {
+        nextEl: ".next",
+        prevEl: ".previous",
+      },
+    });
+
+    $(function () {
+      $(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 500) {
+            $(".backIcon").fadeIn(300)
+          } else {
+            $(".backIcon").fadeOut(300)
+          }
+        })
+        $(".backIcon").on('click', function () {
+          $("body,html").animate({ scrollTop: 0 }, 1000)
+          return false
+        })
+      })
+    })
+
+    $(".next").on('click', function () {
+      // if ($(".Text1").find("opacity") === 1) {
+      //   $(".Text1").css("opacity", 0)
+      //   $(".Text2").css("opacity", 1)
+      // } else if ($(".Text2").find("opacity") === 1) {
+      //   $(".Text2").css("opacity", 0)
+      //   $(".Text3").css("opacity", 1)
+      // }
+
+      $(".Text1").css("opacity", 0)
+      $(".Text2").css("display", "block")
+    })
+
+
+    $(".previous").on('click', function () {
+      $(".Text1").css("opacity", 0)
+      $(".Text3").css("display", "block")
+    })
+
+    const swiper = new Swiper('#chi2', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true, // 圖片是否無限循環拼接
+      speed: 500, // 動畫轉場時間，毫秒
+      centeredSlides: false, // 將 item 置中排列，開始時第一張會在正中間      
+      // 使用斷點控制輪播圖各種參數，例如哪個尺寸顯示幾張圖片
+      breakpoints: {
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 6,
+        }
+      },
+    });
+
+    const chi3 = new Swiper('#chi3', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true, // 圖片是否無限循環拼接
+      speed: 500, // 動畫轉場時間，毫秒
+      centeredSlides: true, // 將 item 置中排列，開始時第一張會在正中間      
+      // 使用斷點控制輪播圖各種參數，例如哪個尺寸顯示幾張圖片
+      breakpoints: {
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 1,
+        },
+        992: {
+          slidesPerView: 3,
+        }
+      },
+    });
+
+  </script>
+</body>
+
+</html>

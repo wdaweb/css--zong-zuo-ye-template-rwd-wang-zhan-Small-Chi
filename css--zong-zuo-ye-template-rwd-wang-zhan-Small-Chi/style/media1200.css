@@ -1,0 +1,774 @@
+@media (min-width:1200px){
+  nav {
+    height: 120px;
+    background: rgba(0,0,0,0);  
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;  
+    justify-content: space-around;
+    transition: .5s;
+  }
+    
+  .media1200 {
+    display: inline-block;   
+  }
+
+  .media1200 a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .media1200 i {
+    margin-left: 10px;
+  }
+
+  .media1200 li {
+    margin-left: 10px;
+  }
+
+  .media1200 button {
+    margin-right: 40px;
+    margin-left: 35px;
+  }
+
+  .humburger{
+    display: none;
+  }
+
+  .home {
+    margin-right: 30px;
+  }
+  
+  .Res-btn {
+    width: 160px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(0,0,0,0);
+    border: 2px solid var(--color-yellow) ;   
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+ 
+  .navdiv {
+    display: block;
+  }
+        
+  nav img {
+    width: 95px;
+    margin-left: 50px;
+  }
+  
+  .navdiv p {
+    padding-bottom: 10px;
+  }
+  
+  .col1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0; 
+  }
+
+  #chi1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  #chi1 img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .Pages p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .blog p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .page {
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .home {
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .shop {
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .blog {
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .contact {
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: none;
+  }
+
+  .dot::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation .5s linear forwards;
+  }
+
+  .dot::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation2 .5s linear forwards;    
+  }
+  
+  .dot1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: none;
+  }
+
+  .dot1::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation .5s linear forwards;
+  }
+
+  .dot1::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation2 .5s linear forwards;    
+  }
+
+  .dot3 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    top: 30px;
+    left: 28px;
+    display: none;
+  }
+
+  .dot3::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation .5s linear forwards;
+  }
+
+  .dot3::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation2 .5s linear forwards;    
+  }
+
+  .dot4 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    display: none;
+  }
+
+  .dot4::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation .5s linear forwards;
+  }
+
+  .dot4::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation2 .5s linear forwards;    
+  }
+
+  .dot5 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    display: none;
+  }
+
+  .dot5::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation .5s linear forwards;
+  }
+
+  .dot5::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    animation: dotAnimation2 .5s linear forwards;    
+  }
+
+  
+  .Pages {    
+    position: absolute;
+    top: 45px;
+    left: -30px;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 296px;
+    z-index: 3000;
+    background: var(--color-blue);    
+    padding: 30px 30px;
+    animation: divAnimation .3s linear forwards;
+  }
+
+  .Shop {    
+    position: absolute;
+    top: 45px;    
+    right: -575px;
+    height: 380px;
+    z-index: 3000;
+    background: var(--color-blue);    
+    padding: 30px 30px;
+    animation: divAnimation .3s linear forwards;    
+    display: none;    
+  }
+
+  .Blog {    
+    position: absolute;
+    top: 45px;
+    left: -30px;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 220px;
+    z-index: 3000;
+    background: var(--color-blue);    
+    padding: 30px 30px;
+    animation: divAnimation .3s linear forwards;
+    display: none;
+  }
+
+  .Shop-1,
+  .Shop-2,
+  .Shop-3 {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Shop p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .Shop-4 {
+    width: 420px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+  }
+
+  .Shop-4 img {
+    width: 100%;
+  }
+
+  .Shop-4 h2 {
+    width: 400px;
+    height: 312px;
+    font-family: "Unna", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    position: absolute;
+    bottom: 2px;
+    left:20px;
+    display: flex;
+    align-items: end;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .previous {
+    top: 500px;
+  }
+
+  .next {
+    top: 500px;
+  }
+
+  .Adress2{
+    top: 700px;
+    left: 250px;
+  }
+
+  .Text1 h1,
+  .Text2 h1,
+  .Text3 h1 {
+    font-size: 120px;
+    line-height: 120px;
+    font-family: "Unna", serif;
+  }
+
+  .Text1,
+  .Text2,
+  .Text3 {
+    padding-top: 270px;
+  } 
+
+  .col2 {
+    height: 674px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .col2-2 {
+    display: flex;
+  }
+
+  .col2 h1 {
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 0;
+    font-family: "Unna", serif;
+    font-size: 40px;
+  }
+
+  .col2 h4 {
+    width: 450px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .services-item {
+    width: 450px;
+    margin-right: 0px;  
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .col3 h1 {
+    padding-top: 0px;
+  }
+
+  .col3 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .phone-menu {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .Allcard{
+    width: 71%;
+  }
+
+  .card {
+    width: 307px;
+    height: 480px;
+    margin-bottom: 50px;
+  }
+
+  .cardimg1 {
+    height: 285.5px;   
+  }
+
+  .cardimg1::before {
+    height: 50%;   
+  }
+
+  .cardimg1::after {
+    height: 285.5px;   
+  }
+
+  .cardimg2 {
+    height: 285.5px;   
+  }
+
+  .cardimg2::before {
+    height: 50%;  
+  }
+
+  .cardimg2::after {
+    height: 285.5px;   
+  }
+
+  .cardimg3 {
+    height: 285.5px;   
+  }
+
+  .cardimg3::before {
+    height: 50%;  
+  }
+
+  .cardimg3::after {
+    height: 285.5px;   
+  }
+
+  .cardimg4 {
+    height: 285.5px;   
+  }
+
+  .cardimg4::before {
+    height: 50%;  
+  }
+
+  .cardimg4::after {
+    height: 285.5px;   
+  }
+
+  .cardimg5 {
+    height: 285.5px;   
+  }
+
+  .cardimg5::before {
+    height: 50%;  
+  }
+
+  .cardimg5::after {
+    height: 285.5px;   
+  }
+
+  .cardimg6 {
+    height: 285.5px;   
+  }
+
+  .cardimg6::before {
+    height: 50%;  
+  }
+
+  .cardimg6::after {
+    height: 285.5px;   
+  }
+
+  .cardimg7 {
+    height: 285.5px;   
+  }
+
+  .cardimg7::before {
+    height: 50%;   
+  }
+
+  .cardimg7::after {
+    height: 285.5px;   
+  }
+
+  .cardimg8 {
+    height: 285.5px;   
+  }
+
+  .cardimg8::before {
+    height: 50%;  
+  }
+
+  .cardimg8::after {
+    height: 285.5px;   
+  }
+
+  .col5 {
+    display: flex; 
+    height: 502px;
+    padding-top: 30px;
+  }
+
+  .col5-1 {
+    width: 50%;
+  }
+
+  .col5-2 {
+    width: 50%;
+    text-align: left;    
+    padding-left: 100px;
+    padding-right: 350px;
+  }
+
+  .col5 img {
+    width: 688px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+
+  .col5 p {
+    padding-left: 0;
+  }
+
+  .message {
+    width: 410px;
+    height: 242px;    
+  }
+
+  #chi3  {
+    width: 70%;
+    display:flex;
+    justify-content: center;
+  }
+
+  .col6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .col7 {
+    height: 670px;
+    padding-top: 100px;
+  }
+
+  .Book {
+    width: 440px;
+    height: 470px;
+    padding: 50px;
+  }
+
+  .timeMenu {
+    width: 440px;
+    height: 470px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .timeMenu-btn {
+    height: 52px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .video {
+    width: 440px;
+    height: 470px;
+    padding: 50px;
+  }
+
+  .timeMenu h2 {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 30px;    
+  }
+
+  .col8 {
+    justify-content: center;
+    align-items: center;
+    background: url('http://miotheme.com/html/Delish/assets/images/others/bg.png') no-repeat center/cover;
+  }
+
+  .HOTDOGS {
+    width: 660px;
+    padding-right: 50px;
+  }
+
+  .SANDWICHES {
+    width: 660px;
+  }
+
+  .WAFFLES {
+    width: 660px;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+
+  .SIDESDRINKS {
+    width: 660px;
+    padding-top: 30px;
+  }
+
+  .col8All {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 73%;
+  }
+
+  .textMenu-btn {
+    margin-top: 50px;
+  }
+
+  .cardDate {
+    width: 450px;
+    height: 623px;
+    margin-right: 20px;
+  }
+
+  .AllcardDate {
+    justify-content: center;
+  }
+
+  .cardDatebody{
+    padding: 30px;
+  }
+
+  .cardDatebody a h3 {
+    font-family: "Unna", serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .col9 {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  #chi2 {
+   width: 70%;
+  }
+
+  .col10 {
+    background: url('http://miotheme.com/html/Delish/assets/images/brand-logo/bg-brand-long.jpg')no-repeat center top/cover;
+  }
+
+  .col11 {
+    padding-top: 100px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Allcol11 {
+    width: 1350px;    
+  }
+
+  .WorkingHour {
+    margin-right: 0px;
+  }
+
+  footer {
+    width: 1350px;
+    height: 65px;
+  }
+  .ShopCart {
+    width: 400px;
+    padding-top: 104px;
+    padding-left: 50px;      
+    padding-right: 50px;  
+  }
+
+  .ShopCart span {      
+    font-size: 45px;
+    top: 40px;
+    left: 50px;
+  }
+
+  .ShopCart-btn {
+    width: 160px;
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .bgColor {
+    background: var(--color-blue);
+  }
+
+  .bgColor1 {
+    background: rgba(0,0,0,0);  
+  }
+
+}

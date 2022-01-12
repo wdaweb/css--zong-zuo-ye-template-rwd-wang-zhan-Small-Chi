@@ -1,0 +1,402 @@
+@media (min-width:768px) {
+  nav {
+    height: 130px;
+  }
+
+  nav img {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .media1200 {
+    display: none;
+  }
+
+  .navdiv{
+    display: none;
+  }
+
+  .navIcon i {
+    padding-right: 20px;
+  }
+
+  .col1 {    
+    margin-top: 130px;
+    position: relative;
+    height: 467px;
+  }
+
+  .Text1,
+  .Text2,
+  .Text3 {
+    padding-top: 20px;
+  }
+
+  .Adress {
+    display: none;
+  }
+
+  .Adress2 {
+    display: flex;
+    padding-left: 20px;
+    position: absolute;
+    top: 200px;
+  }
+
+  .Adress2-2 tr {
+    height: 25px;
+  }
+  
+  .Adress2-2 td {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 45px;
+    position: relative;        
+    top: 100px;
+    left: 0px;
+    text-align: start;
+  }
+
+  .Adress2 span {
+    font-weight: 600;
+  }
+
+  #chi1 {
+    height: 467px;  
+  }
+
+  .previous {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;    
+    left: 0px;
+    top: 0px;
+    margin-right: 10px;
+  }
+
+  .next {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;    
+    left: 0px;
+    top: 0px;
+  }
+
+  .pn-btn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 355px;
+    justify-content: flex-end;
+    /* background: tan; */
+    padding-right: 15%;
+  }
+
+  #chi1 img {
+    width: 150%;
+    left: -180px;
+    right: 0;
+    top: -120px;
+    bottom: 0; 
+  }
+
+  .col2 {
+    padding-left: 40px;
+    padding-right: 5px;
+ }
+  
+  .col2 h1 {
+    width: 500px;
+  }
+
+  .col2 h4 {
+    padding-top: 70px;
+  }
+
+  .services {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+  }
+
+  .services-item {
+  display: flex;
+  justify-content: left;  
+  align-items: flex-start;
+  text-align: left;  
+  margin-right: 35px;  
+  }
+  
+  .services-item p {
+    margin-bottom: 60px;
+  }
+
+  .col3 .Menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .phone-menu {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .col4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Allcard {
+    width: 93.8%;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 210px;    
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .cardimg1 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg1::after {
+    height: 215px;  
+  }
+
+  .cardimg2 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg2::after {
+    height: 215px;  
+  }
+
+  .cardimg3 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg3::after {
+    height: 215px;  
+  }
+
+  .cardimg4 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg4::after {
+    height: 215px;  
+  }
+
+  .cardimg5 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg5::after {
+    height: 215px;  
+  }
+
+  .cardimg6 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg6::after {
+    height: 215px;  
+  }
+
+  .cardimg7 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg7::after {
+    height: 215px;  
+  }
+
+  .cardimg8 {
+    width: 100%;
+    height: 215px;  
+  }
+  
+  .cardimg8::after {
+    height: 215px;  
+  }
+  
+  .col5 img {
+    width: 688px;
+    position: relative;
+    left: -40px;
+  }
+
+  .col5 {
+    background: url("http://miotheme.com/html/Delish/assets/images/others/image1-h3.png")no-repeat ;
+    background-color: white;
+  }
+
+  .col5-btn{
+    background: none;
+  }
+
+  .message {
+    height: 218px;
+  }
+
+  .col7 {
+    flex-direction: row;
+    padding-top: 40px;    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+  }
+
+  .timeMenu h2 {
+    width: 100px;
+    padding-top: 10px;
+  }
+
+  .Book {
+    padding-left: 0px;
+    padding-right: 20px;
+    width: calc(100% / 3);
+    height: 731px;
+  }
+
+  .Book h5 {
+    margin-top: 0;
+  }
+  
+  .timeMenu {
+    text-align: center;
+    width: calc(100% / 3);
+    height: 731px;
+    padding-top: 15px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .video {
+    width: calc(100% / 3);
+    height: 731px;
+  }
+
+  .timeMenu-btn {
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 76px;
+  }
+
+  .videoIcon{
+    width: 80px;
+    height: 80px;
+  }
+
+  .videoIcon i:nth-child(1) {
+    display: none;
+  }  
+
+  .videoIcon i:nth-child(2) {
+    display: block; 
+  }  
+ 
+  .AllcardDate {
+    width: 93.6%;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background: red;     */
+  }
+
+  .cardDate {
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .col9 {
+    padding-bottom: 120px;
+  }
+
+  .Allcol11 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .col11 img {
+    margin-top: 0px;
+  }
+
+  .Logocenter{
+    width: 30%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .Contacts {
+    width: 30%;
+    margin-left: 30px;
+  }
+
+  .WorkingHour {
+    width: 30%;
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .goldIcon{
+    justify-content: center;
+  }
+
+  .cube {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  footer {
+    position: relative;
+    margin: auto;
+    width: 95%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+  
+  .backIcon{
+    width: 50px;
+    height: 50px;
+    right: 40px; 
+  }
+
+  .backIcon i {
+    left: 38%;
+  }
+
+  .ShopCart {
+    padding-left: 25px;      
+    padding-right: 20px; 
+  }
+
+  .ShopCart span {
+    top: 15px;
+    left: 25px;
+  }
+  
+}

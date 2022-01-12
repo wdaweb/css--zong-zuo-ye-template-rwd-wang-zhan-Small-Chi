@@ -1,0 +1,198 @@
+.sidebar li a:hover {
+  color: #ffc107;
+}
+
+.sidebar span:hover {
+  color: #ffc107;  
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.services-item img:hover {  
+  animation: rotatIt;   
+  animation: rotatIt 0.8s;  
+}
+
+@keyframes rotatIt {  
+  0% {
+    transform: scale(0.5) rotateY(180deg);
+  } 
+  100% {
+    transform: scale(1) rotateY(540deg);
+  }
+}
+
+.phone-menu a:hover {
+  color: #ffc107;  
+}
+
+.phone-menu a:hover::before { 
+  transition: 0.4s ease-in-out;
+  transform: translateX(-85%);
+  z-index: 1;
+}
+
+.phone-menu a:hover::after{  
+  transition: 0.4s ease-in-out;
+  transform: translateX(85%); 
+  z-index: 1; 
+}
+
+.favoriteIcon:hover {
+  color: black;  
+}
+
+.cardbody a:hover {
+  background: rgb(0, 50, 70);
+  color: white;
+}
+
+.cardbody h3:hover {
+  color: var(--color-yellow);
+}
+
+.col5-btn:hover {
+  background: var(--color-yellow);
+}
+
+.timeMenu-btn:hover {
+  background: var(--color-yellow);
+  color: black;
+}
+
+.videoIcon:hover {
+  background-color: black;
+}
+
+.textMenu-btn:hover {
+  background: var(--color-yellow);
+  color: black;
+}
+
+.cardDate-btn:hover {
+  background: var(--color-yellow);
+  color: black;
+}
+
+.date a:hover {
+  color: var(--color-yellow);
+}
+
+.cardDatebody a h3:hover{
+  color: var(--color-yellow);
+}
+
+.cardDate:hover img{
+  transform: rotate(5deg)  scale(1.2);  
+}
+
+.col10 .swiper-slide:hover img {
+  transition: 0s;
+  opacity: 1;  
+}
+
+.col10 .swiper-slide img:hover{
+  filter: brightness(0);  
+}
+
+.backIcon a:active {
+  color: black;
+}
+
+.Res-btn:hover {
+  background: var(--color-yellow);
+  color: black;
+}
+
+.ShopCart span:hover {
+  color: #ffc107;  
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.ShopCart .item a:hover {
+  color: #ffc107;
+  cursor: pointer;  
+}
+
+.ShopCart-btn:hover {
+  background: var(--color-yellow);
+}
+
+@media (min-width:1200px) {
+  .Pages p:hover{
+    text-decoration: underline;
+  }
+
+  .Shop p:hover{
+    text-decoration: underline;
+  }
+ 
+  .media1200  li a:hover {
+    color: var(--color-yellow);
+  }
+  
+  .Pages:hover {
+    display: block;
+  }
+
+  .page:hover .dot {
+    display: block;
+  }  
+   
+  @keyframes dotAnimation {
+    100%{
+      transform: translateX(-10px);
+    }
+  }
+
+  @keyframes dotAnimation2 {
+    100%{
+      transform: translateX(10px);
+    }
+  }
+
+  .home:hover .dot1 {
+    display: block;
+  }  
+
+  .shop:hover .dot3 {
+    display: block;
+  }
+  
+  .blog:hover .dot4 {
+    display: block;
+  }  
+
+  .contact:hover .dot5 {
+    display: block;
+  }  
+ 
+  .page:hover .Pages { 
+    display: block;    
+  }
+
+  .blog:hover .Blog { 
+    display: block;    
+  }
+
+  @keyframes divAnimation {
+    100%{
+      transform: translateY(20px);
+    }
+  }
+
+  .Shop-4 h2:hover{
+    background: rgba(0,0,0,0.5);
+    letter-spacing: 3px;
+    transition: .5s;
+  }
+
+  .shop:hover .Shop { 
+    display: flex;
+  }
+
+  .Blog p:hover{
+    text-decoration: underline;
+  }  
+}
